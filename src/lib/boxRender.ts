@@ -1,9 +1,5 @@
 import { DATA_CLASS } from "@/constants/classes";
 
-const labels: string[] = DATA_CLASS;
-
-const MIN_AREA_THRESHOLD = 15000; // Adjust this value as needed for your use case
-
 export const renderBoxes = (
   canvasRef: HTMLCanvasElement,
   boxesData: Float32Array,
